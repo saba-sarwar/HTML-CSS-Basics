@@ -213,3 +213,37 @@ body
 }
 
 /* ----------------------- Main Content End----------------------- */
+
+/* 
+@media screen and (max-width:600px)
+{
+    .right-nav a
+    {
+        display: none;
+    }
+    .right-nav a .hamburger-icon
+    {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width:600px)
+{
+    .right-nav.responsive 
+    {
+        position: relative;
+    }
+    .right-nav.hamburger-icon
+    {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .right-nav.responsive a
+    {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+} */
