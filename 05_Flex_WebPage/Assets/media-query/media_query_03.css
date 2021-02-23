@@ -1,10 +1,10 @@
-/* ------------- For Smart Phones with screen size between 321px to 480px ----------------------*/
+/* ------------- For Tablet with screen size between 481px to 768px ----------------------*/
 
-@media only screen and (min-width : 321px) and (max-width : 480px)
+@media only screen and (min-width : 481px) and (max-width : 768px)
 {
     *
     {
-        font-size: 14px;
+        font-size: 15px;
     }
     .bg-img
     {
@@ -31,7 +31,7 @@
 
     .content-main-1 .items
     {
-        margin-top: 40%;
+        margin-top: 30%;
         width: 80%;
         align-self: center;
         text-align: center;
@@ -49,7 +49,7 @@
 
     .content-main-1 .items p
     {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
         font-weight: 300;
         padding: 10px;
         line-height: 20px;
@@ -61,7 +61,7 @@
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        padding: 20px 10px;
+        padding: 20px;
     }
 
     .main-2 .content-main-2 .left
@@ -72,8 +72,8 @@
 
     .main-2 .content-main-2 .left img
     {
-        width: 150px;
-        height: 150px;
+        width: 180px;
+        height: 180px;
         border-radius: 50%;
     }
 
@@ -89,7 +89,6 @@
         padding: 10px;
         text-align: center;
     }
-
 
     .main-2 .content-main-2 .right h3
     {
@@ -107,7 +106,7 @@
         display: flex;
         flex-direction: column-reverse;
         justify-content: space-around;
-        padding: 20px 10px;
+        padding: 20px;
     }
 
 
@@ -143,8 +142,8 @@
 
     .main-3 .content-main-3 .right img
     {
-        width: 150px;
-        height: 150px;
+        width: 180px;
+        height: 180px;
         border-radius: 50%;
     }
 
@@ -176,7 +175,7 @@
     {
         font-size: 1.1rem;
     }
-    
+
     .main-4 .content-main-4 #middle .middle-content
     {
         display: flex;
@@ -190,7 +189,7 @@
     {
         align-self: center;
         text-align: center;
-        padding: 30px 10px;
+        padding: 50px 10px;
     }
 
     .main-4 .content-main-4 #middle .horizontal-items img

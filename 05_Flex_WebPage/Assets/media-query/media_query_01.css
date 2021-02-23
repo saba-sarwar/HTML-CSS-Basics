@@ -1,4 +1,4 @@
-/* ------------- For smart phone with max screen size of 320px ----------------------*/
+/* ------------- For Mobile Phone with max screen size of 320px ----------------------*/
 
 @media only screen and (max-width : 320px)
 {
@@ -89,6 +89,18 @@
         text-align: center;
     }
 
+
+    .main-2 .content-main-2 .right h3
+    {
+        font-size: 1.5rem;
+        text-transform: capitalize;
+    }
+
+    .main-2 .content-main-2 .right p
+    {
+        font-size: 1.1rem;
+    }
+
     .main-3 .content-main-3
     {
         display: flex;
@@ -111,6 +123,16 @@
         text-align: center;
     }
 
+    .main-3 .content-main-3 .left h3
+    {
+        font-size: 1.5rem;
+        text-transform: capitalize;
+    }
+
+    .main-3 .content-main-3 .left p
+    {
+        font-size: 1.1rem;
+    }
 
     .main-3 .content-main-3 .right
     {
@@ -143,7 +165,17 @@
         padding: 15px 0;
     }
 
+    .main-4 .content-main-4 .vertical-items h3
+    {
+        font-size: 1.5rem;
+        text-transform: capitalize;
+    }
 
+    .main-4 .content-main-4 .vertical-items p
+    {
+        font-size: 1.1rem;
+    }
+    
     .main-4 .content-main-4 #middle .middle-content
     {
         display: flex;
