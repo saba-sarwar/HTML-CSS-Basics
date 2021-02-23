@@ -1,0 +1,183 @@
+/* ------------- For smart phone with screen size between 321px to 480px ----------------------*/
+
+@media only screen and (min-width : 321px) and (max-width : 480px)
+{
+    *
+    {
+        font-size: 14px;
+    }
+    .bg-img
+    {
+        height: 80vh;
+    }
+
+        
+    .content-wrapper
+    {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .content-main-1
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+
+    .content-main-1 .items
+    {
+        margin-top: 40%;
+        width: 80%;
+        align-self: center;
+        text-align: center;
+        padding: 10px;
+        color: rgb(241, 241, 247);
+    }
+
+
+    .content-main-1 .items h1
+    {
+        font-size: 2rem;
+        padding: 10px;
+
+    }
+
+    .content-main-1 .items p
+    {
+        font-size: 1.1rem;
+        font-weight: 300;
+        padding: 10px;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    .main-2 .content-main-2
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 20px 10px;
+    }
+
+    .main-2 .content-main-2 .left
+    {
+        text-align: center;
+        padding: 10px;
+    }
+
+    .main-2 .content-main-2 .left img
+    {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
+
+    .main-2 .content-main-2 .right
+    {
+        color: rgb(64, 64, 64);
+        padding: 10px;
+        text-align: center;
+    }
+
+    .main-2 .content-main-2 .right h3, p
+    {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .main-3 .content-main-3
+    {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        padding: 20px 10px;
+    }
+
+
+    .main-3 .content-main-3 .left
+    {
+        color: rgb(248,248,248);
+        padding: 10px;
+        text-align: center;
+    }
+
+    .main-3 .content-main-3 .left h3, p
+    {
+        padding: 10px;
+        text-align: center;
+    }
+
+
+    .main-3 .content-main-3 .right
+    {
+        text-align: center;
+        padding: 10px;
+    }
+
+    .main-3 .content-main-3 .right img
+    {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
+
+
+    .main-4 .content-main-4
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        padding: 20px 10px;
+        color: rgb(64, 64, 64);
+    }
+
+    .main-4 .content-main-4 .vertical-items
+    {
+        align-self: center;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+
+    .main-4 .content-main-4 #middle .middle-content
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+    .main-4 .content-main-4 #middle .horizontal-items
+    {
+        align-self: center;
+        text-align: center;
+        padding: 30px 10px;
+    }
+
+    .main-4 .content-main-4 #middle .horizontal-items img
+    {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
+
+    .main-4 .content-main-4 #middle .horizontal-items p
+    {
+        text-align: center;
+    }
+
+    .main-4 .content-main-4 #bottom .bottom-content a
+    {
+        padding: 10px;
+        text-decoration: none;
+        color: rgb(64, 64, 64);
+    }
+
+}

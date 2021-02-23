@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 16px;
 }
 
 
@@ -59,13 +60,16 @@
 .content-main-1
 {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .content-main-1 .items
 {
     margin-top: 15%;
     width: 50%;
+    align-self: center;
     text-align: center;
     padding: 10px;
     color: rgb(241, 241, 247);
@@ -75,7 +79,7 @@
 {
     font-size: 2rem;
     padding: 10px;
-    text-align: center;
+
 }
 
 .content-main-1 .items p
@@ -181,3 +185,64 @@
 
 
 /* ---------------------------------- Main-div 3 End ---------------------------------- */
+
+/* ---------------------------------- Main-div 4 ---------------------------------- */
+
+.main-4
+{
+    background-color: rgb(248,248,248);
+}
+
+.main-4 .content-main-4
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px 20px;
+    color: rgb(64, 64, 64);
+}
+
+.main-4 .content-main-4 .vertical-items
+{
+    align-self: center;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.main-4 .content-main-4 #middle .middle-content
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-4 .content-main-4 #middle .horizontal-items
+{
+    align-self: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.main-4 .content-main-4 #middle .horizontal-items img
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.main-4 .content-main-4 #middle .horizontal-items p
+{
+    text-align: center;
+}
+
+.main-4 .content-main-4 #bottom .bottom-content a
+{
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(64, 64, 64);
+}
+
+
+/* ---------------------------------- Main-div 4 End ---------------------------------- */
