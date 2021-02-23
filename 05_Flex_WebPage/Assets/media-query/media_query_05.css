@@ -1,15 +1,15 @@
-/* ------------- For Laptops and Desktop with screen size between 769px to 1299px ----------------------*/
-/* Generally 1280px, for my screen 1299px */
+/* ------------- For Large Screens with screen size grater than 1300px ----------------------*/
+/* Generally 1281px, as per my screen resolution 1300px */
 
-@media only screen and (min-width : 769px) and (max-width : 1299px)
+@media only screen and (min-width : 1300px)
 {
     *
     {
-        font-size: 16px;
+        font-size: 20px;
     }
     .bg-img
     {
-        height: 80vh;
+        height: 90vh;
     }
 
         
@@ -32,7 +32,7 @@
 
     .content-main-1 .items
     {
-        margin-top: 15%;
+        margin-top: 10%;
         width: 60%;
         align-self: center;
         text-align: center;
@@ -53,7 +53,7 @@
         font-size: 1.1rem;
         font-weight: 300;
         padding: 10px;
-        line-height: 25px;
+        line-height: 30px;
         text-align: center;
     }
 
@@ -73,8 +73,8 @@
 
     .main-2 .content-main-2 .left img
     {
-        width: 200px;
-        height: 200px;
+        width: 230px;
+        height: 230px;
         border-radius: 50%;
     }
 
@@ -144,8 +144,8 @@
 
     .main-3 .content-main-3 .right img
     {
-        width: 200px;
-        height: 200px;
+        width: 230px;
+        height: 230px;
         border-radius: 50%;
     }
 
@@ -196,8 +196,8 @@
 
     .main-4 .content-main-4 #middle .horizontal-items img
     {
-        width: 200px;
-        height: 200px;
+        width: 230px;
+        height: 230px;
         border-radius: 50%;
     }
 
