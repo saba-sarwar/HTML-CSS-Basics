@@ -77,6 +77,28 @@
     padding: 20px 0 20px 20px;
 }
 
+/* Hamburger icon */
+
+.nav-bar .burger
+{
+    display: none;
+    cursor: pointer;
+}
+
+.nav-bar .burger div
+{
+    width: 25px;
+    height: 3px;
+    background-color: rgb(240, 240, 245);
+    margin: 5px;
+}
+
+.nav-active
+{
+    transform: translateX(0%);
+}
+
+
 /* Other Content */
 .nav-content
 {

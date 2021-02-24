@@ -1,11 +1,10 @@
-function myFunction(){
-    var x=document.getElementById("rigthNav");
-    if(x.className === "right-nav")
-    {
-        x.className+= "responsive";
-    }
-    else
-    {
-        x.className="right-nav";
-    }
+const navSlide = () => {
+    const burger = document.querySelector('.burger');
+    const nav = document.querySelector('.right-nav');
+    burger.addEventListener('click', () => {
+        nav.classList.toggle('.nav-active');
+        console.log("hhhh");
+    });
 }
+
+navSlide();
