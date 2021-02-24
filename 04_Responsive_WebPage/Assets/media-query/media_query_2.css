@@ -1,0 +1,136 @@
+/* For Tablet screen, screen size between 481 px to 768px */
+
+@media only screen and (min-width : 481px) and (max-width : 768px)
+{
+    *
+    {
+        font-size: 16px;
+    }
+
+    body
+    {
+        overflow-x: hidden;
+    }
+
+
+    /* Navigation Bar */
+    .nav-bar .right-nav
+    {
+        position: absolute;
+        right: 0;
+        height: 50vh;
+        top: 0;
+        background-color: skyblue;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        justify-content: space-around;
+        width: 40%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+    }
+    .nav-bar .right-nav .nav-links
+    {
+        align-self: center;
+        opacity: 0;
+    }
+
+    .nav-bar .burger
+    {
+        display: block;
+    }
+
+    /* Other Nav Content */
+    .nav-content
+    {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        margin-top: 5vh;
+        padding: 10px;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+
+    .nav-content h1
+    {
+        color: rgb(240, 240, 245);
+        font-size: 2rem;
+        font-weight: 400;
+        padding: 10px;
+    }
+
+    .nav-content .icon
+    {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+    }
+
+    .nav-content .icon div
+    {
+        border-right: 1px solid rgb(163, 163, 194);
+        padding: 0 15px;
+    }
+    
+    .nav-content .icon i
+    {
+        color: rgb(99,180,132);
+        padding: 0 40px 10px 40px;
+    }
+
+    .nav-content .icon h4, p
+    {
+        margin: 0;
+        padding: 10px;
+        color: rgb(240, 240, 245);
+    }
+
+
+    .nav-content .btn
+    {
+        margin-top: 20px;
+        padding: 20px;
+    }
+
+    .nav-content .btn button
+    {
+        padding: 10px 30px;
+        font-size: 0.8rem;
+        border-radius: 18px;
+    }
+
+
+
+    /* Main Content */
+
+    .main-content
+    {
+        width: 80%;
+        margin: 20px auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+    }   
+
+
+    .main-content .right-card, .left-card
+    {
+        padding: 20px;
+    }
+
+    .main-content .btn
+    {
+        padding: 20px;
+    }
+    .main-content .btn button
+    {
+        padding: 10px 30px;
+        font-size: 0.8rem;
+        border-radius: 18px; 
+    }
+}
