@@ -29,8 +29,7 @@
     url("./Assets/images/img-03.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    /* width: 100%; */
-    min-height: 90vh;
+    width: 100%;
     position: relative;
 }
 
