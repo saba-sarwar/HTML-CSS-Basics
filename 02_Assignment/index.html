@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <title>CSS Properties</title>
+</head>
+<body>
+
+    <!-- Font Properties -->
+    <div class="box" id="box-1">
+        <h2>Font Properties</h2>
+        <p id="line-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus repellendus placeat veniam a velit magnam, quod nam ipsum nisi animi.</p>
+        <p id="line-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus repellendus placeat veniam a velit magnam, quod nam ipsum nisi animi.</p>
+        <p id="line-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus repellendus placeat veniam a velit magnam, quod nam ipsum nisi animi.</p>
+        <p id="line-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus repellendus placeat veniam a velit magnam, quod nam ipsum nisi animi.</p>
+    </div>
+    <hr>
+
+    <!-- Background Properties -->
+    <div class="box" id="box-2">
+        <h2>Background Properties</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam, aspernatur.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam, aspernatur.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam, aspernatur.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam, aspernatur.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam, aspernatur.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam, aspernatur.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam, aspernatur.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam, aspernatur.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam, aspernatur.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam, aspernatur.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam, aspernatur.</p>
+    </div>
+    <hr>
+
+    <!-- Pseudo Classes -->
+    <div class="box" id="box-3">
+        <h2>Pseudo Classes</h2>
+        <h4>Anchor Pseudo Class</h4>
+        <a href="#">Click Me..</a><br>
+        <h4>CSS Pseudo Classes</h4>
+        <ul>
+            <li>First</li>
+            <li>Second</li>
+            <li>Third</li>
+            <li>Fourth</li>
+            <li>Fifth</li>
+        </ul>
+    </div>
+    <hr>
+
+    <!-- Combinators -->
+    <div class="box" id="box-4">
+        <h2>Combinators</h2>
+        <h4>>>Descendant Selector</h4>
+        <div id="desc">
+            <p>Paragraph 1 in the div.</p>
+            <p>Paragraph 2 in the div.</p>
+        </div>
+        <p style="padding: 15px;">Paragraph 3 outside the div.</p>
+
+        <h4>>>Child Selector (>)</h4>
+        <div id="child">
+            <p>Paragraph 1 in the div.</p>
+            <p>Paragraph 2 in the div.</p>
+            <section>
+                <p>Paragraph 3 in the div (Descendant, not Child).</p>
+            </section> <!-- not Child but Descendant -->
+        </div>
+
+        <h4>>>Adjacent Sibling Selector (+)</h4>
+        <div id="adj">
+            <p>Paragraph 1 in the div.</p>
+            <p>Paragraph 2 in the div.</p>
+        </div> 
+        <p>Paragraph 3. After a div.</p>
+        <p>Paragraph 4. After a div.</p>
+
+
+        <h4>>>General Sibling Selector (~)</h4>
+        <div id="gen">
+            <p>Paragraph 2.</p>
+        </div>
+        <p>Paragraph 3.</p>
+        <code>Some code.</code>
+        <p>Paragraph 4.</p>
+
+    </div>
+    <hr>
+
+    <!-- Attribute Selector -->
+    <div class="box" id="box-5">
+        <h2>Attribute Selector</h2>
+        <a href="#">btn1</a>
+        <a href="#" target="_blank">btn2</a>
+        <a href="#" target="_top">btn3</a>
+
+        <form>
+            <input type="text" name="name" placeholder="Enter Name">
+            <input type="password" name="passwd" placeholder="Enter password">
+        </form>
+    </div>
+</body>
+</html>

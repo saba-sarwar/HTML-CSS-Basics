@@ -1,0 +1,251 @@
+/* ----------------------- For entire web page ----------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.content-wrapper
+{
+    /* max-width: 1200px; */
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ----------------------- For entire web page End ----------------------- */
+
+
+/* ----------------------- Home Screen ----------------------- */
+.bg-image
+{
+    background-image: linear-gradient(to bottom, rgba(37, 37, 49, 0.9), rgba(41, 41, 54, 0.9)), 
+    url("./Assets/images/img-03.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* width: 100%; */
+    min-height: 90vh;
+    position: relative;
+}
+
+
+/* Navigation Bar */
+.nav-bar
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+    border-bottom: 1.5px solid rgb(163, 163, 194);
+}
+
+.nav-bar .left-nav a, .right-nav a
+{
+    text-decoration: none;
+    color: rgb(240, 240, 245);
+    font-size: 1rem;
+    font-weight: 500;
+    /* letter-spacing: 0.1rem; */
+}
+
+.nav-bar .left-nav a
+{
+    padding: 20px 20px 20px 0;
+}
+
+.nav-bar .right-nav
+{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.nav-bar .right-nav .nav-links
+{
+    align-items: flex-end;
+}
+
+
+.nav-bar .right-nav .nav-links a
+{
+    padding: 20px 0 20px 20px;
+}
+
+/* Hamburger icon */
+
+.nav-bar .burger
+{
+    display: none;
+    cursor: pointer;
+}
+
+.nav-bar .burger div
+{
+    width: 25px;
+    height: 3px;
+    background-color: rgb(240, 240, 245);
+    margin: 5px;
+}
+
+.nav-active
+{
+    transform: translateX(0%);
+}
+
+
+/* Other Content */
+.nav-content
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 5vh;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav-content h1
+{
+    color: rgb(240, 240, 245);
+    font-weight: 400;
+    padding: 10px;
+}
+
+.nav-content .icon
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.nav-content .icon div
+{
+    border-right: 1px solid rgb(163, 163, 194);
+    padding: 0 20px;
+}
+.nav-content .icon div:last-of-type
+{
+    border: none;
+}
+
+.nav-content .icon i
+{
+    color: rgb(99,180,132);
+    padding: 0 40px 10px 40px;
+}
+
+.nav-content .icon h4, p
+{
+    margin: 0;
+    padding: 5px 40px 0 40px;
+    color: rgb(240, 240, 245);
+}
+
+.nav-content .btn
+{
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.nav-content .btn button
+{
+    border: none;
+    background: none;
+    text-align: center;
+    padding: 10px 30px;
+    font-size: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 2px solid rgb(99,180,132);
+    border-radius: 16px;
+    color: rgb(99,180,132);
+    cursor: pointer;
+}
+
+.nav-content .btn button:hover
+{
+    background-color: rgb(99,180,132);
+    color: rgb(240, 240, 245);
+}
+
+/* ----------------------- Home Screen End ----------------------- */
+
+
+/* ----------------------- Main Content ----------------------- */
+.main-content
+{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.main-content .right-card, .left-card
+{
+    padding: 50px 20px;
+}
+
+.main-content .round-img img
+{
+    width: 6rem;
+    height: 6rem;
+    background-repeat: no-repeat;
+    border: 2px solid rgb(240, 240, 245);
+    border-radius: 50%;
+    opacity: 0.8;
+}
+
+.main-content .card-content h3
+{
+    margin: 0;
+    padding: 10px;
+    color: rgb(64, 64, 64);
+    font-weight: 400;
+}
+
+.main-content .card-content p
+{
+    margin: 0;
+    padding: 10px;
+    color: rgb(64, 64, 64);
+    font-size: 11px;
+    font-weight: 300;
+    line-height: 15px;
+}
+
+.main-content .btn
+{
+    padding: 15px;
+}
+.main-content .btn button
+{
+    border: none;
+    background: none;
+    text-align: center;
+    padding: 10px 30px;
+    font-size: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 2px solid rgb(99,180,132);
+    border-radius: 16px;
+    color: rgb(99,180,132);
+    cursor: pointer;
+}
+
+.main-content .btn button:hover
+{
+    background-color: rgb(99,180,132);
+    color: rgb(240, 240, 245);
+}
+
+/* ----------------------- Main Content End----------------------- */
